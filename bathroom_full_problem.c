@@ -240,9 +240,9 @@ int main()
           
   void show()
    {
-       int i;
+       int i,k;
        queue *temp,*end;
-       for(i=0;i<5;i++)
+       for(i=0;i<2;i++)
        {
                        if(i==0)
                        {
@@ -258,9 +258,10 @@ int main()
                        }
             if(temp)
             {
+             k=0;
               while( temp  )
                 {
-                  printf("\n %d :- %s",++i,temp->name);
+                  printf("\n %d :- %s",++k,temp->name);
                   printf("\n   sex :%c",temp->sex);
                   temp = temp->next;  
                 }
