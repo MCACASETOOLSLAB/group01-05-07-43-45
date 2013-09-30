@@ -241,19 +241,17 @@ int main()
   void show()
    {
        int i,k;
-       queue *temp,*end;
+       queue *temp;
        for(i=0;i<2;i++)
        {
                        if(i==0)
                        {
                           temp = G_front;
-                          end = G_rear;
                            printf("\n\n Waiting Queue of Gents:-\n");
                         }
                        else
                        {
                           temp = L_front;
-                          end = L_rear;
                           printf("\n\n Waiting Queue of Ladies:-\n");
                        }
             if(temp)
