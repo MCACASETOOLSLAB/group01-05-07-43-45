@@ -82,7 +82,7 @@ int main()
                                        allocate(sex);
                                        break;
                              case '3' : system("cls");
-                                       for(i=0;i<2;i++)
+                                       for(i=0;i<5;i++)
                                           {
                                             if( i ==0 )
                                                {
@@ -144,7 +144,7 @@ int main()
    int critical_section(char bathroom[])
     {
         int i;
-        for(i=0;i<2;i++)
+        for(i=0;i<5;i++)
                {
                      if( bathroom[i] == 'f' )
                      {
@@ -228,7 +228,7 @@ int main()
   void display(char bathroom[])
   {
        int j;
-       for(j=0;j<2;j++)
+       for(j=0;j<5;j++)
        {
            printf("\n --------- ");
            printf("\n|         |");
@@ -242,7 +242,7 @@ int main()
    {
        int i;
        queue *temp,*end;
-       for(i=0;i<2;i++)
+       for(i=0;i<5;i++)
        {
                        if(i==0)
                        {
