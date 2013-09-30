@@ -4,8 +4,8 @@
 #include <stdlib.h>
 
 
-char gents[2]={'f','f'};
-char ladies[2]={'f','f'};
+char gents[5]={'f','f','f','f','f'};
+char ladies[5]={'f','f','f','f','f'};
 static int semaphore=0;
 static int total_encome = 0;
 
