@@ -179,7 +179,23 @@ int main()
                              }
                          }
                          break;
-         case 3:  printf("\n\nmonitor is not completed ......");
+         case 3:  hile(1)
+                         {
+                             printf("\n\t\t\t1.Enter person\n\t\t\t2.Exit person\n\t\t\t3.current status\n\t\t\t4.close mutex\n\t\t\tEnter your choice :");
+                             scanf("%d",&ch);
+                             switch(ch)
+                             {
+
+                                 case 1: entermutex();
+                                         break;
+                                 case 2: exitmutex();
+                                           break;
+                                 case 3: status();
+								           break;
+								case 4: system("cls"); goto A;
+								default: printf("\n\n\t\t\tINVALID SELECTION......TRY AGAIN..");		             
+                             }
+                         }
 		           sleep(1);
 				   break;
 	    case 4: return;
